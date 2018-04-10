@@ -8,10 +8,9 @@
 
 import Foundation
 
-class team {
-    var perso: [perso]?
+class Team {
+    var perso: [Perso]?
     var name: String
-    
     init(name: String) {
         self.name = name
     }

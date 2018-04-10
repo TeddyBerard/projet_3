@@ -8,8 +8,11 @@
 
 import Foundation
 
-class perso {
-    var heal  = 100
-    var dmg  = 10
-    var name = ""
+class Perso {
+    var name: String?
+    var type: String?
+    var life: Int?
+    var dmg: Int?
+    init() {
+    }
 }
