@@ -8,11 +8,12 @@
 
 import Foundation
 
-class Perso {
-    var name: String?
-    var type: String?
-    var life: Int?
-    var dmg: Int?
-    init() {
+class Perso { // class for all champs
+    var name: String? // name of champ
+    var type: String? // class of champ
+    var life: Int? // this life
+    var lifeMax: Int? // max life of character
+    var dmg: Int? // this domage
+    init() { // without init
     }
 }

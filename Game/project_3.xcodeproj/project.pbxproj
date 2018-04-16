@@ -10,6 +10,9 @@
 		3A410A77207CBC1E006F58AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A76207CBC1E006F58AE /* main.swift */; };
 		3A410A7E207CBC88006F58AE /* personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A7D207CBC88006F58AE /* personnage.swift */; };
 		3A410A80207CBFB8006F58AE /* team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A7F207CBFB8006F58AE /* team.swift */; };
+		3AFDA7FE2084AE5F009C93ED /* combat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA7FD2084AE5F009C93ED /* combat.swift */; };
+		3AFDA8002084AEBF009C93ED /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA7FF2084AEBF009C93ED /* utils.swift */; };
+		3AFDA8022084AFAF009C93ED /* print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA8012084AFAF009C93ED /* print.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		3A410A76207CBC1E006F58AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3A410A7D207CBC88006F58AE /* personnage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personnage.swift; sourceTree = "<group>"; };
 		3A410A7F207CBFB8006F58AE /* team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = team.swift; sourceTree = "<group>"; };
+		3AFDA7FD2084AE5F009C93ED /* combat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combat.swift; sourceTree = "<group>"; };
+		3AFDA7FF2084AEBF009C93ED /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		3AFDA8012084AFAF009C93ED /* print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				3A410A76207CBC1E006F58AE /* main.swift */,
 				3A410A7F207CBFB8006F58AE /* team.swift */,
 				3A410A7D207CBC88006F58AE /* personnage.swift */,
+				3AFDA7FD2084AE5F009C93ED /* combat.swift */,
+				3AFDA7FF2084AEBF009C93ED /* utils.swift */,
+				3AFDA8012084AFAF009C93ED /* print.swift */,
 			);
 			path = project_3;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFDA8002084AEBF009C93ED /* utils.swift in Sources */,
+				3AFDA8022084AFAF009C93ED /* print.swift in Sources */,
 				3A410A77207CBC1E006F58AE /* main.swift in Sources */,
+				3AFDA7FE2084AE5F009C93ED /* combat.swift in Sources */,
 				3A410A7E207CBC88006F58AE /* personnage.swift in Sources */,
 				3A410A80207CBFB8006F58AE /* team.swift in Sources */,
 			);

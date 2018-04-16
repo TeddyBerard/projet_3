@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Team {
-    var perso: [Perso]?
-    var name: String
+class Team { // class for player
+    var perso: [Perso]? // see personnage.swift
+    var name: String // name of player
     init(name: String) {
-        self.name = name
+        self.name = name // init name
     }
 }
