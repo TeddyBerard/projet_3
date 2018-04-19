@@ -9,9 +9,12 @@
 import Foundation
 
 class Team { // class for player
-    var perso: [Perso]? // see personnage.swift
+    var perso: [Perso] // see personnage.swift
     var name: String // name of player
-    init(name: String) {
-        self.name = name // init name
+    var loose: Bool
+    init() {
+        self.name = "" // init name
+        self.perso = []
+        self.loose = false
     }
 }
