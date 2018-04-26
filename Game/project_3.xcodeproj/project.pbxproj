@@ -10,9 +10,9 @@
 		3A410A77207CBC1E006F58AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A76207CBC1E006F58AE /* main.swift */; };
 		3A410A7E207CBC88006F58AE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A7D207CBC88006F58AE /* Character.swift */; };
 		3A410A80207CBFB8006F58AE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A410A7F207CBFB8006F58AE /* Team.swift */; };
-		3AFDA7FE2084AE5F009C93ED /* Combats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA7FD2084AE5F009C93ED /* Combats.swift */; };
+		3AFDA7FE2084AE5F009C93ED /* Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA7FD2084AE5F009C93ED /* Fight.swift */; };
 		3AFDA8002084AEBF009C93ED /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA7FF2084AEBF009C93ED /* Utils.swift */; };
-		3AFDA8022084AFAF009C93ED /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA8012084AFAF009C93ED /* Print.swift */; };
+		3AFDA8022084AFAF009C93ED /* UIGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA8012084AFAF009C93ED /* UIGame.swift */; };
 		3AFDA8042084D1A7009C93ED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA8032084D1A7009C93ED /* Game.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,9 +33,9 @@
 		3A410A76207CBC1E006F58AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3A410A7D207CBC88006F58AE /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		3A410A7F207CBFB8006F58AE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		3AFDA7FD2084AE5F009C93ED /* Combats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combats.swift; sourceTree = "<group>"; };
+		3AFDA7FD2084AE5F009C93ED /* Fight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight.swift; sourceTree = "<group>"; };
 		3AFDA7FF2084AEBF009C93ED /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		3AFDA8012084AFAF009C93ED /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		3AFDA8012084AFAF009C93ED /* UIGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGame.swift; sourceTree = "<group>"; };
 		3AFDA8032084D1A7009C93ED /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +72,9 @@
 				3A410A76207CBC1E006F58AE /* main.swift */,
 				3A410A7F207CBFB8006F58AE /* Team.swift */,
 				3A410A7D207CBC88006F58AE /* Character.swift */,
-				3AFDA7FD2084AE5F009C93ED /* Combats.swift */,
+				3AFDA7FD2084AE5F009C93ED /* Fight.swift */,
 				3AFDA7FF2084AEBF009C93ED /* Utils.swift */,
-				3AFDA8012084AFAF009C93ED /* Print.swift */,
+				3AFDA8012084AFAF009C93ED /* UIGame.swift */,
 				3AFDA8032084D1A7009C93ED /* Game.swift */,
 			);
 			path = project_3;
@@ -138,10 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFDA8002084AEBF009C93ED /* Utils.swift in Sources */,
-				3AFDA8022084AFAF009C93ED /* Print.swift in Sources */,
+				3AFDA8022084AFAF009C93ED /* UIGame.swift in Sources */,
 				3AFDA8042084D1A7009C93ED /* Game.swift in Sources */,
 				3A410A77207CBC1E006F58AE /* main.swift in Sources */,
-				3AFDA7FE2084AE5F009C93ED /* Combats.swift in Sources */,
+				3AFDA7FE2084AE5F009C93ED /* Fight.swift in Sources */,
 				3A410A7E207CBC88006F58AE /* Character.swift in Sources */,
 				3A410A80207CBFB8006F58AE /* Team.swift in Sources */,
 			);

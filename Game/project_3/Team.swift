@@ -9,12 +9,21 @@
 import Foundation
 
 class Team { // class for player
-    var perso: [Perso] // see personnage.swift
-    var name: String // name of player
-    var loose: Bool
-    init() {
-        self.name = "" // init name
-        self.perso = []
-        self.loose = false
+    var character: [Character] = [] // see Character.swift
+    var name: String = "" // name of player
+    var loose: Bool = false
+    
+    func AlivePlayer(player: [Team]) { // set the loose
+        for i in 0..<player.count {
+            var alive = 0
+            for nbr in 0..<player[i].character.count {
+                if player[i].character[nbr].life > 0 {
+                    alive += 1
+                }
+            }
+            if alive == 0 {
+                player[i].loose = true
+            }
+        }
     }
 }

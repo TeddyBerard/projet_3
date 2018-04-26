@@ -9,13 +9,13 @@
 import Foundation
 
 class UIGame {
-    var start = "Bienvenue à arena game !"
+    var start = "------------------------------\nBienvenue dans arena game !\n------------------------------"
     var askNbPlayer = "Entrez le nombre de joueurs"
     var Nbrfalse = "Entrer un nombre de joueurs correcte"
     var NbrCharacfalse = "Entrer un nombre de champion correcte"
     var NameExist = "Nom incorrecte entre un autre nom "
     var promt = "> "
-    var askNbrCharacter = "Choisissez le nombre de champions jouable !"
+    var asknumberCharacter = "Choisissez le nombre de champions jouable !"
     var askClassCorrect  = "Choisie une classe jouable"
     var cible = "Choisissez une cible :"
     var heal = "Choisissez un champion à soigner :"
@@ -37,5 +37,11 @@ class UIGame {
             print(sub ?? "MDR", terminator: "")
         }
         if term == 0 {print("")}
+    }
+    
+    func prompt(line: String) -> String { // print the prompt and get the command of player
+        printArcade(line: line, term: 0, speed: 0)
+        printArcade(line: promt, term: 1, speed: 0)
+        return readLine()!
     }
 }

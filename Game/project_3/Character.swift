@@ -1,5 +1,5 @@
 //
-//  personnage.swift
+//  Characternnage.swift
 //  project_3
 //
 //  Created by Teddy Bérard on 10/04/2018.
@@ -8,66 +8,53 @@
 
 import Foundation
 
-class Perso { // class for all champs
-    var name: String // name of champ
-    var life: Int // this life
-    var lifeMax: Int // max life of character
-    var dmg: Int // this domage
-    var canHeal: Bool
-    var weapon: (String, Int)
-    init() { // without init
-        self.name = ""
-        self.life = 0
-        self.lifeMax = 0
-        self.dmg = 0
-        self.canHeal = false
-        self.weapon = ("", 0)
-    }
-    
+class Character { // class for all champs
+    var name: String = "" // name of champ
+    var life: Int = 0 // this life
+    var lifeMax: Int = 0 // max life of character
+    var domages: Int = 0 // this domage
+    var canHeal: Bool = false
+    var weapon: (String, Int) = ("", 0)
 }
 
-class Mage : Perso {
+class Magus : Character { // traduire
     override init() {
         super.init()
         self.canHeal = true
-        self.dmg = 20
+        self.domages = 20
         self.lifeMax = 75
         self.life = 75
-        self.name = ""
         self.weapon = ("", 0)
     }
     
 }
 
-class Colosse : Perso {
+class Colossus : Character {
     override init() {
         super.init()
-        self.dmg = 7
+        self.domages = 7
         self.lifeMax = 130
         self.life = 130
-        self.name = ""
         self.weapon = ("", 0)
     }
 }
 
-class Combattant : Perso {
+class Fighter : Character {
     override init() {
         super.init()
-        self.dmg = 10
+        self.domages = 10
         self.lifeMax = 100
         self.life = 100
-        self.name = ""
         self.weapon = ("", 0)
     }
 }
 
-class Nain : Perso {
+class Dwarf : Character {
     override init() {
         super.init()
-        self.dmg = 35
+        self.domages = 35
         self.lifeMax = 45
         self.life = 45
-        self.name = ""
-        self.weapon = ("", 0)   
+        self.weapon = ("", 0)
     }
 }
