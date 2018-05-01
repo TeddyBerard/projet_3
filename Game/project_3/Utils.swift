@@ -13,7 +13,10 @@ class Utils {
     
     func IsGoodnumberPlayer(line: String) -> Bool { // check if the result is a good number
         let num = Int(line)
-        return line.isEmpty && num == nil && num == 0 && num == 1
+        if line.isEmpty && num == nil && num == 0 && num == 1 {
+            return false
+        }
+        return true
     }
     
     func IsGoodnumberCharacter(line: String) -> Bool { // check if the result is a good number

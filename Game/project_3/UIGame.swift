@@ -26,7 +26,7 @@ class UIGame {
     var weaponSpawnAlert = "Une arme apparaît !"
 
     
-    func printArcade(line: String, term: Int, speed: UInt32 = 0) { // print like zelda games
+    func printArcade(line: String, term: Int, speed: UInt32 = 120000) { // print like zelda games
         var nbr = 0
         var sub: String?
         while nbr != line.count {
